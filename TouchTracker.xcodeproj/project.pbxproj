@@ -14,6 +14,8 @@
 		4ED7AD0421A6DB3A008A1ADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ED7AD0221A6DB3A008A1ADF /* LaunchScreen.storyboard */; };
 		4ED7AD0F21A6DB3A008A1ADF /* TouchTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED7AD0E21A6DB3A008A1ADF /* TouchTrackerTests.swift */; };
 		4ED7AD1A21A6DB3A008A1ADF /* TouchTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED7AD1921A6DB3A008A1ADF /* TouchTrackerUITests.swift */; };
+		4ED7AD2821A6DC41008A1ADF /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED7AD2721A6DC41008A1ADF /* Line.swift */; };
+		4ED7AD2A21A6DD23008A1ADF /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED7AD2921A6DD23008A1ADF /* DrawView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4ED7AD1521A6DB3A008A1ADF /* TouchTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED7AD1921A6DB3A008A1ADF /* TouchTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchTrackerUITests.swift; sourceTree = "<group>"; };
 		4ED7AD1B21A6DB3A008A1ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ED7AD2721A6DC41008A1ADF /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		4ED7AD2921A6DD23008A1ADF /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				4ED7ACF921A6DB37008A1ADF /* AppDelegate.swift */,
 				4ED7ACFB21A6DB37008A1ADF /* ViewController.swift */,
+				4ED7AD2721A6DC41008A1ADF /* Line.swift */,
+				4ED7AD2921A6DD23008A1ADF /* DrawView.swift */,
 				4ED7ACFD21A6DB37008A1ADF /* Main.storyboard */,
 				4ED7AD0021A6DB3A008A1ADF /* Assets.xcassets */,
 				4ED7AD0221A6DB3A008A1ADF /* LaunchScreen.storyboard */,
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED7AD2A21A6DD23008A1ADF /* DrawView.swift in Sources */,
+				4ED7AD2821A6DC41008A1ADF /* Line.swift in Sources */,
 				4ED7ACFC21A6DB37008A1ADF /* ViewController.swift in Sources */,
 				4ED7ACFA21A6DB37008A1ADF /* AppDelegate.swift in Sources */,
 			);
